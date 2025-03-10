@@ -1,0 +1,399 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Net Ninja Pro - the Book</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="/css/main.min.css" rel="stylesheet" >
+  <style>
+    section{
+      padding: 60px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4">
+    <div class="container-xxl">
+      <!-- navbar brand / title -->
+      <a class="navbar-brand" href="#intro">
+        <span class="text-secondary fw-bold">
+          <i class="bi bi-palette"></i>
+          Mel'i lemmikupildid
+        </span>
+      </a>
+      <!-- toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#topics">Tellimise protsess</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reviews">Tagasiside</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Kontakt</a>
+          </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link" href="#pricing">Hinnad</a>
+          </li>
+          <li class="nav-item ms-2 d-none d-md-inline">
+            <a class="btn btn-secondary" href="#pricing">Telli pilt</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- main image & intro text -->
+  <section id="intro">
+    <div class="container-lg">
+      <div class="row g-4 justify-content-center align-items-center">
+        <div class="col-md-5 text-center text-md-start">
+          <h1>
+            <div class="display-2">Loomaportree</div>
+            <div class="display-5 text-muted">Sinu uus maal oma lemmikust</div>
+          </h1>
+          <p class="lead my-4 text-muted">Soovid, et sul oleks eriline viis oma lemmik jäädvustada?</p>
+          <a href="#pricing" class="btn btn-secondary btn-lg">Telli</a>
+          <!-- open sidebar / offcanvas -->
+          <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+            Tutvu meie teiste toodetega
+          </a>
+        </div>
+        <div class="col-md-5 text-center d-none d-md-block">
+          <!-- tooltip -->
+            <span class="tt" data-bs-placement="bottom" title="Kassipilt...">
+              <img src="img/kassiportreekp.gif" class="img-fluid" alt="kassiportreekp">
+            </span>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- pricing plans -->
+  <section id="pricing" class="bg-light mt-5">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>Kunstiteosed</h2>
+        <p class="lead text-muted">Vali endale sobiv variant teosest.</p>
+      </div>
+
+      <div class="row my-5 g-0 align-items-center justify-content-center">
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Digitaalne portree</h4>
+              <p class="lead card-subtitle">Stiilne digitaalne joonistus</p>
+              <p class="display-5 my-4 text-primary fw-bold">15€</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Ideaalne neile, kes soovivad lihtsat, kuid kaunist lemmiklooma pilti digitaalsel kujul.</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                Telli
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-9 col-lg-4">
+          <div class="card border-primary border-2">
+            <div class="card-header text-center text-primary">Kõige populaarsem</div>
+            <div class="card-body text-center py-5">
+              <h4 class="card-title">Personaalne kunstiteos</h4>
+              <p class="lead card-subtitle">Ainulaadne prinditav illustratsioon</p>
+              <p class="display-4 my-4 text-primary fw-bold">25€</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block"> Detailsem ja kohandatud kujundusega illustratsioon, mida saab ka printida.</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                Telli
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Ainulaadne meistriteos</h4>
+              <p class="lead card-subtitle">Eksklusiivne käsitöömaal</p>
+              <p class="display-5 my-4 text-primary fw-bold">50€</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block"> Eksklusiivne käsitsi maalitud või 3D-stiilis loodud kunstiteos</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                Telli
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- end container -->
+  </section>
+
+
+  <!-- topics at a glance -->
+  <section id="topics">
+    <div class="container-md">
+      <div class="text-center">
+        <h2>Teose tellimise protsessist...</h2>
+        <p class="lead text-muted">Kiire ülevaade, kuidas saab meilt tellida</p>
+      </div>
+      <div class="row my-5 g-5 justify-content-around align-items-center">
+        <div class="col-6 col-lg-4">
+          <img src="img/kassipiltr.png" class="img-fluid" alt="ebook">
+        </div>
+        <div class="col-lg-6">
+          
+          <!-- accordion -->
+          <div class="accordion" id="chapters">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+                  1. Millise stiiliga kunstiteost soovid?
+                </button>
+              </h2>
+              <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Vali endale sobiv teenus: digitaalne portree, prinditav kunstiteos või käsitöömaal</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">
+                  2. Milline pilt Sinu lemmikloomast on parim?
+                </button>
+              </h2>
+              <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Laadi üles kvaliteetne foto, mis toob välja lemmiku iseloomu ja detailid.</p>                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-1">
+                  3. Kas soovid kohandusi?
+                </button>
+              </h2>
+              <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Lisa erisoovid: näiteks taustavärv, nimi või eriline kujundus.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-4" aria-expanded="false" aria-controls="chapter-4">
+                  4. Kui kaua läheb tellimuse valmimiseks?
+                </button>
+              </h2>
+              <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Tavaliselt 5-15 päeva sõltuvalt valitud teenusest. Digitaalsed tööd jõuavad kiiremini!</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-5" aria-expanded="false" aria-controls="chapter-5">
+                  5. Kuidas saad oma kunstiteose kätte?
+                </button>
+              </h2>
+              <div id="chapter-5" class="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Digitaalsed pildid saadetakse e-posti teel, prinditud ja käsitöömaalid pakitakse hoolikalt ja saadetakse Sulle koju.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- reviews list -->
+  <section id="reviews" class="bg-altlight">
+    <div class="container-lg">
+      <div class="text-center text-altdark">
+        <h2>Tagasiside klientidelt</h2>
+        <p class="lead">Kuidas tellijad on rahule jäänud oma teosega...</p>
+      </div>
+
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-8">
+          <div class="list-group">
+            <div class="list-group-item py-3">
+              <div class="pb-2">
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+              </div>
+              <h5 class="mb-1">Täiuslik pilt!</h5>
+              <p class="mb-1">Tellisin oma koerast digitaalse portree ja tulemus oli imeline! Pilt tabas täpselt tema ilmet ja iseloomu. Väga kiire ja kvaliteetne töö!</p>
+              <small>Liisa</small>
+            </div>
+            <div class="list-group-item py-3">
+              <div class="pb-2">
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+              </div>
+              <h5 class="mb-1">Ootused ületatud!</h5>
+              <p class="mb-1">ain käsitsi maalitud pildi oma kassist ning see oli lihtsalt hämmastav! Detailid ja värvid olid täpselt sellised, nagu ette kujutasin. Kindlasti soovitan!</p>
+              <small>Tõnu</small>
+            </div>
+            <div class="list-group-item py-3">
+              <div class="pb-2">
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+              </div>
+              <h5 class="mb-1">Kaunis detail kodu sisekujundusse!</h5>
+              <p class="mb-1">Prinditud kunstiteos sobib ideaalselt minu elutoa seinale. Super professionaalne teenindus ja suurepärane tulemus! Olen väga rahul!</p>
+              <small>Marie</small>
+            </div>
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact form -->
+<!-- form-control, form-label, form-select, input-group, input-group-text -->
+<section id="contact">
+  <div class="container-lg">
+    
+    <div class="text-center">
+      <h2>Võtke meiega ühendust</h2>
+      <p class="lead">Kui on lisaküsimusi saab alati meile kirjutada...</p>
+    </div>
+    <div class="row justify-content-center my-5">
+      <div class="col-lg-6">
+        
+        <form>
+          <label for="email" class="form-label">Email:</label>
+          <div class="input-group mb-4">
+            <span class="input-group-text">
+              <i class="bi bi-envelope-fill text-secondary"></i>
+            </span>
+            <input type="text" id="email" class="form-control" placeholder="nt. melani@gmail.com" />
+            <!-- tooltip -->
+            <span class="input-group-text">
+              <span class="tt" data-bs-placement="bottom" title="Lisage enda emaili aadress">
+                <i class="bi bi-question-circle text-muted"></i>
+              </span>
+            </span>
+          </div>
+          <label for="name" class="form-label">Nimi:</label>
+          <div class="mb-4 input-group">
+            <span class="input-group-text">
+              <i class="bi bi-person-fill text-secondary"></i>
+            </span>
+            <input type="text" id="name" class="form-control" placeholder="nt. Melani" />
+            <!-- tooltip -->
+            <span class="input-group-text">
+              <span class="tt" data-bs-placement="bottom" title="Lisage enda täisnimi">
+                <i class="bi bi-question-circle text-muted"></i>
+              </span>
+            </span>
+          </div>
+          
+          <div class="mb-4 mt-5 form-floating">
+            <textarea class="form-control" id="query" style="height: 140px" placeholder="query"></textarea>
+            <label for="query">Sõnumi sisu...</label>
+          </div>
+          <div class="mb-4 text-center">
+            <button type="submit" class="btn btn-secondary">Saada</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- get updates / modal trigger -->
+  <section class="bg-light">
+    <div class="container">
+      <div class="text-center">
+        <h2>Ole esimene, kes teab...</h2>
+        <p class="lead">Saa teateid, kui mõni muutus on toimumas...</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <p class="text-muted my-4">Registreeri oma e-posti aadress, et saada värskendusi uute kunstistiilide, eripakkumiste ja eksklusiivsete tellimisvõimaluste kohta!</p>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">
+            Registreeri end
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- modal itself -->
+  <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-title">Saage kõige värskemaid teateid!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Registreeri oma e-posti aadress, et saada värskendusi uute kunstistiilide, eripakkumiste ja eksklusiivsete tellimisvõimaluste kohta!</p>
+          <label for="modal-email" class="form-label">Teie E-maili aadress:</label>
+          <input type="text" class="form-control" id="modal-email" placeholder="e.g. mario@example.com">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Registreeri</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- side panel / offcanvas -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="sidebar-label">Meie muud tooted</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>Me ei tooda ainult pilte, vaid ka erinevaid esemeid pudelitest kuni säravateni kõrvarõngasteni!</p>
+       <!-- dropdown -->
+       <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="book-dropdown" data-bs-toggle="dropdown">
+          Valige tooterühm
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+          <li><a class="dropdown-item" href="#">Veepudelid</a></li>
+          <li><a class="dropdown-item" href="#">Tote Bags</a></li>
+          <li><a class="dropdown-item" href="#">Kõrvarõngad</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script>
+    const tooltips = document.querySelectorAll('.tt')
+    tooltips.forEach(t => {
+      new bootstrap.Tooltip(t)
+    })
+  </script>
+
+</body>
+</html>
